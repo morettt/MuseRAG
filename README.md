@@ -1,7 +1,7 @@
 # MuseRAG
 
 
-## 部署环境
+## 1.部署环境
 ```bash
 conda create -n muser python=3.11 -y
 
@@ -15,11 +15,11 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 python download_model.py
 ```
 
-## 添加数据
+## 2.添加数据
 在 数据库.txt  文件里面填入数据，当前只可填入纯文本
 
 
-## 启动项目
+## 3.启动项目
 
 ```bash
 conda activate muser
@@ -27,7 +27,7 @@ conda activate muser
 python run_rag.py
 ```
 
-## 测试
+## 4.测试
 ```bash
 python test.py
 ```
