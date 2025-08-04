@@ -1,7 +1,7 @@
 # MuseRAG
 
 
-1.部署环境
+## 部署环境
 ```bash
 conda create -n muser python=3.11 -y
 
@@ -19,7 +19,7 @@ python download_model.py
 在 数据库.txt  文件里面填入数据，当前只可填入纯文本
 
 
-2.启动项目
+## 启动项目
 
 ```bash
 conda activate muser
@@ -27,4 +27,7 @@ conda activate muser
 python run_rag.py
 ```
 
-
+## 测试
+```bash
+python test.py
+```
