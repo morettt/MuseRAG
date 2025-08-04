@@ -10,6 +10,9 @@ conda activate muser
 pip install -r requirements.txt
 
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+#下载模型
+python download_model.py
 ```
 
 ## 添加数据
